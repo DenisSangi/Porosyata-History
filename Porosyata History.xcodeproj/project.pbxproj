@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		D9AEDDCA2A9CC87B006682BD /* Porosyata History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Porosyata History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porosyata_HistoryApp.swift; sourceTree = "<group>"; };
-		D9AEDDCF2A9CC87B006682BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9AEDDCF2A9CC87B006682BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Porosyata History/ContentView.swift"; sourceTree = SOURCE_ROOT; };
 		D9AEDDD12A9CC87B006682BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AEDDD32A9CC87B006682BD /* Porosyata_History.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Porosyata_History.entitlements; sourceTree = "<group>"; };
 		D9AEDDD52A9CC87B006682BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
