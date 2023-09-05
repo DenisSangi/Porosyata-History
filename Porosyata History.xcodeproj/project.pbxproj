@@ -11,6 +11,8 @@
 		D9AEDDD02A9CC87B006682BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEDDCF2A9CC87B006682BD /* ContentView.swift */; };
 		D9AEDDD22A9CC87B006682BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AEDDD12A9CC87B006682BD /* Assets.xcassets */; };
 		D9AEDDD62A9CC87B006682BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AEDDD52A9CC87B006682BD /* Preview Assets.xcassets */; };
+		D9C511832AA74F9B00A2F38E /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C511822AA74F9B00A2F38E /* Questions.swift */; };
+		D9C511872AA752EF00A2F38E /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C511862AA752EF00A2F38E /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		D9AEDDD12A9CC87B006682BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AEDDD32A9CC87B006682BD /* Porosyata_History.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Porosyata_History.entitlements; sourceTree = "<group>"; };
 		D9AEDDD52A9CC87B006682BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9C511822AA74F9B00A2F38E /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		D9C511862AA752EF00A2F38E /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */,
 				D9AEDDCF2A9CC87B006682BD /* ContentView.swift */,
+				D9C511862AA752EF00A2F38E /* ChoiceTextView.swift */,
+				D9C511822AA74F9B00A2F38E /* Questions.swift */,
 				D9AEDDD12A9CC87B006682BD /* Assets.xcassets */,
 				D9AEDDD32A9CC87B006682BD /* Porosyata_History.entitlements */,
 				D9AEDDD42A9CC87B006682BD /* Preview Content */,
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C511832AA74F9B00A2F38E /* Questions.swift in Sources */,
 				D9AEDDD02A9CC87B006682BD /* ContentView.swift in Sources */,
+				D9C511872AA752EF00A2F38E /* ChoiceTextView.swift in Sources */,
 				D9AEDDCE2A9CC87B006682BD /* Porosyata_HistoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
