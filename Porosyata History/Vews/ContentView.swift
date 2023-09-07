@@ -4,6 +4,7 @@
 //
 //  Created by Denis Sangi on 28/08/2023.
 //
+//It's a View part of MVVM
 
 import SwiftUI
 

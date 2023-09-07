@@ -13,6 +13,7 @@
 		D9AEDDD62A9CC87B006682BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AEDDD52A9CC87B006682BD /* Preview Assets.xcassets */; };
 		D9C511832AA74F9B00A2F38E /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C511822AA74F9B00A2F38E /* Questions.swift */; };
 		D9C511872AA752EF00A2F38E /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C511862AA752EF00A2F38E /* ChoiceTextView.swift */; };
+		D9C5118D2AA9DD5400A2F38E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5118C2AA9DD5400A2F38E /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D9AEDDD52A9CC87B006682BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9C511822AA74F9B00A2F38E /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		D9C511862AA752EF00A2F38E /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		D9C5118C2AA9DD5400A2F38E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Game.swift; path = "Porosyata History/Models/Game.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,11 @@
 		D9AEDDCC2A9CC87B006682BD /* Porosyata History */ = {
 			isa = PBXGroup;
 			children = (
-				D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */,
-				D9AEDDCF2A9CC87B006682BD /* ContentView.swift */,
-				D9C511862AA752EF00A2F38E /* ChoiceTextView.swift */,
-				D9C511822AA74F9B00A2F38E /* Questions.swift */,
-				D9AEDDD12A9CC87B006682BD /* Assets.xcassets */,
+				D9C5118E2AA9DDA800A2F38E /* Models */,
+				D9C5118F2AA9DDD900A2F38E /* Vews */,
 				D9AEDDD32A9CC87B006682BD /* Porosyata_History.entitlements */,
+				D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */,
+				D9AEDDD12A9CC87B006682BD /* Assets.xcassets */,
 				D9AEDDD42A9CC87B006682BD /* Preview Content */,
 			);
 			path = "Porosyata History";
@@ -73,6 +74,24 @@
 				D9AEDDD52A9CC87B006682BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9C5118E2AA9DDA800A2F38E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9C511822AA74F9B00A2F38E /* Questions.swift */,
+				D9C5118C2AA9DD5400A2F38E /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9C5118F2AA9DDD900A2F38E /* Vews */ = {
+			isa = PBXGroup;
+			children = (
+				D9AEDDCF2A9CC87B006682BD /* ContentView.swift */,
+				D9C511862AA752EF00A2F38E /* ChoiceTextView.swift */,
+			);
+			path = Vews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C511832AA74F9B00A2F38E /* Questions.swift in Sources */,
+				D9C5118D2AA9DD5400A2F38E /* Game.swift in Sources */,
 				D9AEDDD02A9CC87B006682BD /* ContentView.swift in Sources */,
 				D9C511872AA752EF00A2F38E /* ChoiceTextView.swift in Sources */,
 				D9AEDDCE2A9CC87B006682BD /* Porosyata_HistoryApp.swift in Sources */,
