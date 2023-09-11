@@ -11,7 +11,7 @@ import SwiftUI
 struct Porosyata_HistoryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
         }
     }
 }

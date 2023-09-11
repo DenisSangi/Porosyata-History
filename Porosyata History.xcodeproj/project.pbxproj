@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		D9AEDDCE2A9CC87B006682BD /* Porosyata_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */; };
-		D9AEDDD02A9CC87B006682BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEDDCF2A9CC87B006682BD /* ContentView.swift */; };
+		D9AEDDD02A9CC87B006682BD /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEDDCF2A9CC87B006682BD /* GameView.swift */; };
 		D9AEDDD22A9CC87B006682BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AEDDD12A9CC87B006682BD /* Assets.xcassets */; };
 		D9AEDDD62A9CC87B006682BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AEDDD52A9CC87B006682BD /* Preview Assets.xcassets */; };
 		D9C511832AA74F9B00A2F38E /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C511822AA74F9B00A2F38E /* Questions.swift */; };
 		D9C511872AA752EF00A2F38E /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C511862AA752EF00A2F38E /* ChoiceTextView.swift */; };
 		D9C5118D2AA9DD5400A2F38E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5118C2AA9DD5400A2F38E /* Game.swift */; };
+		D9C511912AAF501600A2F38E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C511902AAF501600A2F38E /* WelcomeView.swift */; };
+		D9C511932AAF54AD00A2F38E /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C511922AAF54AD00A2F38E /* GameColor.swift */; };
+		D9C511952AAF57A000A2F38E /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C511942AAF57A000A2F38E /* BottomTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D9AEDDCA2A9CC87B006682BD /* Porosyata History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Porosyata History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porosyata_HistoryApp.swift; sourceTree = "<group>"; };
-		D9AEDDCF2A9CC87B006682BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9AEDDCF2A9CC87B006682BD /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		D9AEDDD12A9CC87B006682BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AEDDD32A9CC87B006682BD /* Porosyata_History.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Porosyata_History.entitlements; sourceTree = "<group>"; };
 		D9AEDDD52A9CC87B006682BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9C511822AA74F9B00A2F38E /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		D9C511862AA752EF00A2F38E /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		D9C5118C2AA9DD5400A2F38E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Game.swift; path = "Porosyata History/Models/Game.swift"; sourceTree = SOURCE_ROOT; };
+		D9C511902AAF501600A2F38E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		D9C511922AAF54AD00A2F38E /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		D9C511942AAF57A000A2F38E /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				D9C5118E2AA9DDA800A2F38E /* Models */,
-				D9C5118F2AA9DDD900A2F38E /* Vews */,
+				D9C5118F2AA9DDD900A2F38E /* Views */,
 				D9AEDDD32A9CC87B006682BD /* Porosyata_History.entitlements */,
 				D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */,
 				D9AEDDD12A9CC87B006682BD /* Assets.xcassets */,
@@ -85,13 +91,16 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		D9C5118F2AA9DDD900A2F38E /* Vews */ = {
+		D9C5118F2AA9DDD900A2F38E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D9AEDDCF2A9CC87B006682BD /* ContentView.swift */,
+				D9AEDDCF2A9CC87B006682BD /* GameView.swift */,
 				D9C511862AA752EF00A2F38E /* ChoiceTextView.swift */,
+				D9C511902AAF501600A2F38E /* WelcomeView.swift */,
+				D9C511922AAF54AD00A2F38E /* GameColor.swift */,
+				D9C511942AAF57A000A2F38E /* BottomTextView.swift */,
 			);
-			path = Vews;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C511832AA74F9B00A2F38E /* Questions.swift in Sources */,
+				D9C511912AAF501600A2F38E /* WelcomeView.swift in Sources */,
 				D9C5118D2AA9DD5400A2F38E /* Game.swift in Sources */,
-				D9AEDDD02A9CC87B006682BD /* ContentView.swift in Sources */,
+				D9AEDDD02A9CC87B006682BD /* GameView.swift in Sources */,
+				D9C511952AAF57A000A2F38E /* BottomTextView.swift in Sources */,
+				D9C511932AAF54AD00A2F38E /* GameColor.swift in Sources */,
 				D9C511872AA752EF00A2F38E /* ChoiceTextView.swift in Sources */,
 				D9AEDDCE2A9CC87B006682BD /* Porosyata_HistoryApp.swift in Sources */,
 			);
