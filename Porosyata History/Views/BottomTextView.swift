@@ -24,6 +24,6 @@ struct BottomTextView: View {
 
 struct BottomTextView_Previews: PreviewProvider {
     static var previews: some View {
-        BottomTextView(str: "")
+        BottomTextView(str: "Test")
     }
 }

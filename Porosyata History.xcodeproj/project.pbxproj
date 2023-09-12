@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D95AB9842AB09259009D50F2 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95AB9832AB09259009D50F2 /* GameViewModel.swift */; };
+		D95AB9862AB09519009D50F2 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95AB9852AB09519009D50F2 /* QuestionView.swift */; };
 		D9AEDDCE2A9CC87B006682BD /* Porosyata_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */; };
 		D9AEDDD02A9CC87B006682BD /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEDDCF2A9CC87B006682BD /* GameView.swift */; };
 		D9AEDDD22A9CC87B006682BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AEDDD12A9CC87B006682BD /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D95AB9832AB09259009D50F2 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		D95AB9852AB09519009D50F2 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		D9AEDDCA2A9CC87B006682BD /* Porosyata History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Porosyata History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porosyata_HistoryApp.swift; sourceTree = "<group>"; };
 		D9AEDDCF2A9CC87B006682BD /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -31,7 +35,7 @@
 		D9C5118C2AA9DD5400A2F38E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Game.swift; path = "Porosyata History/Models/Game.swift"; sourceTree = SOURCE_ROOT; };
 		D9C511902AAF501600A2F38E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		D9C511922AAF54AD00A2F38E /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
-		D9C511942AAF57A000A2F38E /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		D9C511942AAF57A000A2F38E /* BottomTextView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = BottomTextView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D95AB9822AB091C7009D50F2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D95AB9832AB09259009D50F2 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		D9AEDDC12A9CC87B006682BD = {
 			isa = PBXGroup;
 			children = (
@@ -64,11 +76,12 @@
 		D9AEDDCC2A9CC87B006682BD /* Porosyata History */ = {
 			isa = PBXGroup;
 			children = (
+				D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */,
 				D9C5118E2AA9DDA800A2F38E /* Models */,
 				D9C5118F2AA9DDD900A2F38E /* Views */,
-				D9AEDDD32A9CC87B006682BD /* Porosyata_History.entitlements */,
-				D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */,
+				D95AB9822AB091C7009D50F2 /* ViewModels */,
 				D9AEDDD12A9CC87B006682BD /* Assets.xcassets */,
+				D9AEDDD32A9CC87B006682BD /* Porosyata_History.entitlements */,
 				D9AEDDD42A9CC87B006682BD /* Preview Content */,
 			);
 			path = "Porosyata History";
@@ -99,6 +112,7 @@
 				D9C511902AAF501600A2F38E /* WelcomeView.swift */,
 				D9C511922AAF54AD00A2F38E /* GameColor.swift */,
 				D9C511942AAF57A000A2F38E /* BottomTextView.swift */,
+				D95AB9852AB09519009D50F2 /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +187,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95AB9862AB09519009D50F2 /* QuestionView.swift in Sources */,
+				D95AB9842AB09259009D50F2 /* GameViewModel.swift in Sources */,
 				D9C511832AA74F9B00A2F38E /* Questions.swift in Sources */,
 				D9C511912AAF501600A2F38E /* WelcomeView.swift in Sources */,
 				D9C5118D2AA9DD5400A2F38E /* Game.swift in Sources */,
