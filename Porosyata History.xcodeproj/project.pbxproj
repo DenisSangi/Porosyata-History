@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D95AB9842AB09259009D50F2 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95AB9832AB09259009D50F2 /* GameViewModel.swift */; };
 		D95AB9862AB09519009D50F2 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95AB9852AB09519009D50F2 /* QuestionView.swift */; };
+		D95AB9882AB1E813009D50F2 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95AB9872AB1E813009D50F2 /* ScoreView.swift */; };
+		D95AB98A2AB1E998009D50F2 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95AB9892AB1E998009D50F2 /* ScoreViewModel.swift */; };
 		D9AEDDCE2A9CC87B006682BD /* Porosyata_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */; };
 		D9AEDDD02A9CC87B006682BD /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEDDCF2A9CC87B006682BD /* GameView.swift */; };
 		D9AEDDD22A9CC87B006682BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AEDDD12A9CC87B006682BD /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D95AB9832AB09259009D50F2 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		D95AB9852AB09519009D50F2 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		D95AB9872AB1E813009D50F2 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		D95AB9892AB1E998009D50F2 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 		D9AEDDCA2A9CC87B006682BD /* Porosyata History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Porosyata History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AEDDCD2A9CC87B006682BD /* Porosyata_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porosyata_HistoryApp.swift; sourceTree = "<group>"; };
 		D9AEDDCF2A9CC87B006682BD /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				D95AB9832AB09259009D50F2 /* GameViewModel.swift */,
+				D95AB9892AB1E998009D50F2 /* ScoreViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 				D9C511922AAF54AD00A2F38E /* GameColor.swift */,
 				D9C511942AAF57A000A2F38E /* BottomTextView.swift */,
 				D95AB9852AB09519009D50F2 /* QuestionView.swift */,
+				D95AB9872AB1E813009D50F2 /* ScoreView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,10 +196,12 @@
 				D95AB9862AB09519009D50F2 /* QuestionView.swift in Sources */,
 				D95AB9842AB09259009D50F2 /* GameViewModel.swift in Sources */,
 				D9C511832AA74F9B00A2F38E /* Questions.swift in Sources */,
+				D95AB98A2AB1E998009D50F2 /* ScoreViewModel.swift in Sources */,
 				D9C511912AAF501600A2F38E /* WelcomeView.swift in Sources */,
 				D9C5118D2AA9DD5400A2F38E /* Game.swift in Sources */,
 				D9AEDDD02A9CC87B006682BD /* GameView.swift in Sources */,
 				D9C511952AAF57A000A2F38E /* BottomTextView.swift in Sources */,
+				D95AB9882AB1E813009D50F2 /* ScoreView.swift in Sources */,
 				D9C511932AAF54AD00A2F38E /* GameColor.swift in Sources */,
 				D9C511872AA752EF00A2F38E /* ChoiceTextView.swift in Sources */,
 				D9AEDDCE2A9CC87B006682BD /* Porosyata_HistoryApp.swift in Sources */,

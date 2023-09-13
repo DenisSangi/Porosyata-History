@@ -19,7 +19,7 @@ struct Game {
     private(set) var guesses = [Question: Int]()
     
     //a property to check if the game is over
-    private var isOver = false
+    var isOver = false
     
     //a method for updating guesses dictionary
     mutating func makeGuessForCurrentQuestion(atIndex index: Int) {

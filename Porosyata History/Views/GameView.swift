@@ -9,13 +9,11 @@
 import SwiftUI
 
 struct GameView: View {
-
     @StateObject var viewModel = GameViewModel()
     
     var body: some View {
         ZStack {
             GameColor.main.ignoresSafeArea()
-            
             VStack {
                 Text(viewModel.questionProgressText)
                     .font(.callout)
@@ -27,6 +25,12 @@ struct GameView: View {
             .navigationBarHidden(true)
             .environmentObject(viewModel)
         }
+        .background(
+            NavigationLink(destination: ScoreView(viewModel: ScoreViewModel(
+                correctGuesses: viewModel.correctGuesses,
+                incorrectGuesses: viewModel.incorrectGuesses)),
+                label: { EmptyView() })
+        )
     }
 }
 

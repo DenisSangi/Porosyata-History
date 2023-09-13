@@ -13,6 +13,14 @@ class GameViewModel: ObservableObject {
   // MARK: - Published properties
   // 2
   @Published private var game = Game()
+    
+    var correctGuesses: Int {
+        game.guessCount.correct
+    }
+    
+    var incorrectGuesses: Int {
+        game.guessCount.incorrect
+    }
 
   // MARK: - Internal properties
   // 3
@@ -32,6 +40,10 @@ class GameViewModel: ObservableObject {
           return false
       }
   }
+    
+    var gameIsOver: Bool {
+        game.isOver 
+    }
     
   // MARK: - Internal Methods
   // 2
